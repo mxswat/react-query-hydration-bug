@@ -7,6 +7,6 @@ export const fetchGame = async (variables: GameQueryVariables) => {
   return Promise.resolve({
     name: 'Game Name',
     id: '1',
-    domainNAme: 'domainName' in variables ? variables.domainName : 'default',
+    domainName: 'domainName' in variables ? variables.domainName : 'default',
   })
 }
